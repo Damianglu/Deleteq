@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--the root view must be the DrawerLayout-->
-<androidx.drawerlayout.widget.DrawerLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,27 +11,66 @@
     tools:context=".MainActivity"
     tools:ignore="HardcodedText">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/propertyHome"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/gradient_background"
+        android:text="Properties"
+        android:textStyle="bold">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="128dp"
-            android:gravity="center"
-            android:text="Menu Drawer"
-            android:textSize="18sp" />
+    </Button>
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/contractorHome"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/propertyHome"
+        android:background="@drawable/gradient_background"
+        android:text="Contractors"
+        android:textStyle="bold">
 
-    <!--this the navigation view which draws
-        and shows the navigation drawer-->
-    <!--include the menu created in the menu folder-->
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:menu="@menu/menu1" />
+    </Button>
 
-</androidx.drawerlayout.widget.DrawerLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/propertyHome"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_background"
+        android:text="Rent Statistics"
+        android:textStyle="bold"
+        android:id="@+id/rentStatsHome">
+
+    </Button>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/contractorHome"
+        android:layout_toRightOf="@id/rentStatsHome"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_background"
+        android:text="Contractor Statistics"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/contractorStatsHome">
+
+    </Button>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="Home Page"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:id="@+id/homePageTetView">
+
+    </TextView>
+
+</RelativeLayout>
