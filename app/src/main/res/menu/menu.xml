@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/weatherItem"
+        android:title="Weather"/>
+
+    <item android:id="@+id/mapItem"
+        android:title="Open Map"/>
+
+    <item android:id="@+id/Covidtracker"
+        android:title="Covid Tracker"/>
+
+    <item android:id="@+id/addContractor"
+        android:title="Add Contractor"/>
+
+    <item android:id="@+id/chat"
+        android:title="Chat"/>
+
+    <item android:id="@+id/stats"
+        android:title="Contractors Stats"/>
+
+    <item android:id="@+id/rent"
+        android:title="Rent Stats"/>
+
+    <item android:id="@+id/job"
+        android:title="Schedule Job"/>
+
+    <item android:id="@+id/logout"
+        android:title="Logout">
+
+
+
+    </item>
+
+</menu>

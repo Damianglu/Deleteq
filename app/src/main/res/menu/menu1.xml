@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/PropertyMenu"
+        android:title="Add Property" />
+
+    <item
+        android:id="@+id/ContractorMenu"
+        android:title="Add Contractor" />
+
+    <item
+        android:id="@+id/CovidMenu"
+        android:title="Covid Tracker" />
+
+    <item
+        android:id="@+id/DisplayData"
+        android:title="Contractor Statistics" />
+
+    <item
+        android:id="@+id/WeatherMenu"
+        android:title="Weather" />
+
+    <item
+        android:id="@+id/MapsMenu"
+        android:title="Maps" />
+
+    <item
+        android:id="@+id/LogoutMenu"
+        android:title="Maps" />
+
+</menu>
