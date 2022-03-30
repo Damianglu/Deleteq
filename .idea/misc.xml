@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.2245" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/drawable/messagebackground.xml" value="0.2245" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_c19_tracker.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_chat.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_contractor.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_contractor_chart.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_contractordetails.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_create_contractor.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_create_property.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_data_display.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_edit_property.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_home_page.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_job_schedular.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_otp_authentication.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_profile.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_property.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_register.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_rent_chart.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_set_profile.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_specificchat.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_splash_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_splashscreen.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_test.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_update_profile.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/activity_weather.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/callfragment.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/chatfragment.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/chatviewlayout.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Damia/Rev5/PropertyProject/PropertyProject/app/src/main/res/layout/contractor_layout.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

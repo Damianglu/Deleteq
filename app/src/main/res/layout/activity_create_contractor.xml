@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/skyblue"
-    android:backgroundTint="@color/skyblue"
+    android:background="@drawable/gradient_background"
     tools:context=".createContractor"
     tools:layout_editor_absoluteX="1dp"
     tools:layout_editor_absoluteY="35dp">
@@ -13,16 +12,18 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.159" />
+
 
     <EditText
         android:id="@+id/createcontractorname"
@@ -39,8 +40,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner"
-        app:layout_constraintVertical_bias="0.212" />
-
+        app:layout_constraintVertical_bias="0.089" />
 
     <EditText
         android:id="@+id/createcontractorarea"
@@ -54,10 +54,11 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createcontractorname"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.096" />
+
 
     <EditText
         android:id="@+id/createcontractorphone"
@@ -74,8 +75,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createcontractorarea"
-        app:layout_constraintVertical_bias="0.067" />
-
+        app:layout_constraintVertical_bias="0.128" />
 
     <EditText
         android:id="@+id/createcontractorrate"
@@ -89,10 +89,10 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/createcontractorphone"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.178" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/savecontractor"

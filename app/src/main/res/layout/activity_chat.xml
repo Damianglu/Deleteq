@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_marginTop="0dp"
-        android:background="@color/skyblue"
+        android:background="@drawable/gradient_background"
         android:id="@+id/toolbar">
 
         <RelativeLayout
@@ -40,7 +40,7 @@
         android:layout_height="?attr/actionBarSize"
         android:layout_below="@+id/toolbar"
         android:layout_marginTop="0dp"
-        android:backgroundTint="@color/skyblue"
+        android:background="@drawable/gradient_background"
         app:tabIndicatorColor="@color/white"
         app:tabIndicatorHeight="3dp"
         app:tabSelectedTextColor="@color/black"
